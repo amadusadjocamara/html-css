@@ -7,6 +7,9 @@
     <title>Criando imagens de fundo</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <style>
+        body{
+            background-image: url(imagens/pattern001.png);
+        }
         div.quadrado{
             border: 1px solid black;
             width: 300px;
@@ -15,16 +18,25 @@
             border-radius: 10px ;
 
         }
+        div#q1{
+            background-color: darkolivegreen;
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow , red );
+        }
+        div#q3{
+            background-image: url(imagens/pattern003.png);
+        }
     </style>
 </head>
 <body>
-    <div class="quadrado">
+    <div class="quadrado" id="q1">
 
     </div>
-    <div class="quadrado">
+    <div class="quadrado" id="q2">
 
     </div>
-    <div class="quadrado">
+    <div class="quadrado" id="q3">
 
     </div>
     
