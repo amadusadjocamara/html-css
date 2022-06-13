@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizando Fundo</title>
+    <style>
+        #conteiner{
+            position: relative;
+            background-color: blueviolet;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            height: 96vh;
+            padding: 10px;
+
+        }
+        #conteido{
+            position: absolute;
+            background-color: yellow;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            height: 200px;
+            width: 400px;
+
+            left: 50%;
+            top: 50%;
+            transform: translate(-50% ,-50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="conteiner">
+        <article id="conteido">
+
+        </article>
+    </section>
+    
+</body>
+</html>
