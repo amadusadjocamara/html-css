@@ -54,7 +54,6 @@ section{
 section.normal{
     background-color: white;
     color: black;
-    background-attachment: fixed;
 }
 section.imagen > p{
     display: inline-block;
@@ -68,6 +67,7 @@ section.imagem{
     padding: 5px;
     color: white;
     box-shadow: 6px 6px 13px 0px black;
+    background-attachment: fixed;
 }
 section#imagen01{
     background-image: url(../imagens/background001.jpg);
