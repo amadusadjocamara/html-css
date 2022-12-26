@@ -1,0 +1,16 @@
+body{
+    background-color:  #8A790F;
+    font-size: ;
+    font-family: 'Times New Roman', Times, serif
+}
+h1{
+    font-family: 'Tangerine', serif;
+    font-size: 20px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+hr{
+    background-color: white;
+    border-style: dotted, none;
+    border-width: color;
+    width: 30%;
+}
