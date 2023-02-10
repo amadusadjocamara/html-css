@@ -1,7 +1,12 @@
+*{
+    margin:0px;
+    padding: 0px
+}
 body{
     background-color:  #8A790F;
     font-size: ;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 h1{
     font-family: 'Tangerine', serif;
