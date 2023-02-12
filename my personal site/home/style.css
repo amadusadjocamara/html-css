@@ -47,14 +47,38 @@ body{
     background: rgb(27, 3, 50);
 }
 div.img00{
-    position: relative;
-    padding: 20px;
-    margin: 20px;
-    align-items: center;
+    border: 10px solid gray;
+    max-width: 800px;
+    padding: 10px;
+    margin: auto;
     
+    align-items: center; 
 
 }
+.elementimag{
+    display: flex;
+}
+.elementimag a{
+    border: solid;
+    width: 20vw;
 
+}
+img{
+    width: 500;
+    height: 600;
+ 
+}
+.objt{
+    color: white;
+    text-align: center;
+    text-align: justify;
+
+}
+.txtodj{
+    width: 500px;
+    height: 600px;
+    
+}
 
 
 
