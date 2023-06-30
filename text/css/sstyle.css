@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: aqua;
+
+}
+h1{
+
+    background-image:url(../img/dog.jpeg) ;
+    background-size: 40%,20%;
+    background-repeat: no-repeat;
+    background-position: left ;
+    width: 25%;
+    height: 400px;
+    border: 2px solid blue;
+    margin-top: 50px;
+    margin-right:50px ;
+    margin-left: 800px;
+    margin: 100px, 50px, 10px,10px;
+
+
+
+
+} 
+#second-para{
+    color:blue;
+    background-color: red;
+    text-align: left;
+    
+}
+
+.first-class{
+    color: green;
+}
