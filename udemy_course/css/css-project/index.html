@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            line-height: 1.5em;
+            
+        }
+        #header{
+            background: black ;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100px;
+        }
+        #contentwapper{
+            float: left;
+            width: 100%;
+        }
+        #contencolum{
+            margin: 0 230px 0 230px;
+
+        }
+        #leftcolum{
+            float: left;
+            width: 230px;
+            margin-left: -100px;
+            background-color: #24C8FF;
+        }
+        #righcolum{
+            float: left;
+            width: 230px;
+            margin-left: -230px;
+            background: #FFFB00;
+        }
+        .innertext{
+            margin: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #5E5E5E;
+        }
+        #footer{
+            clear: left;
+            width: 100%;
+            background: black;
+            color: #FFF;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding: 4px;
+        }
+        /* #### Navigation Bar #### */
+        ul{
+            list-style-type: none ;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+        }
+        li{
+            float: left;
+            border-right: 1px solid #bbb;
+        }
+        li:last-child{
+            border-right: none;
+        }
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active){
+            background-color: #808080;
+        }
+        .active{
+            background-color: #0099ff;
+        }
+        /* #### Responsive layout ### */
+        @media(max-width: 840px) {
+            #leftcolum{
+                margin-left: -100%;
+            }
+            #rightcolum{
+                float: none;
+                width: 100%;
+                margin-left: 0 ;
+                clear: both;
+            }
+            #contentconlum{
+                margin-right: 0; /* Set margin to LeftcolumnWidth */
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div >
+        <div id="header">
+            <ul style="display: inline;">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Contact</a></li>
+                
+            </ul>
+        </div>
+        <div id="contentwapper">
+            <div id="contencolum">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ab necessitatibus eius excepturi eveniet quas hic totam! Minima omnis, id, sunt recusandae nam, a provident maxime blanditiis commodi modi vitae.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit similique labore culpa laudantium quis, molestiae ipsam hic amet dicta, aliquam, quod doloremque numquam rem sint laborum fugiat modi maiores placeat?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore magni, facilis aspernatur quo quibusdam voluptates ea itaque a voluptatem, id possimus fugiat, voluptas consequuntur doloremque ullam veniam quaerat libero culpa.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio eius mollitia sed commodi molestiae rem facilis! Aliquid commodi reprehenderit sunt blanditiis voluptates corporis doloribus, quaerat incidunt sint. Fugiat, quia magnam?
+            </div>
+
+        </div>
+        <div id="leftcolum">
+            <div class="innertext">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, officiis optio, tenetur aliquam ut accusantium inventore, harum veritatis pariatur nihil expedita voluptatem non saepe laboriosam blanditiis architecto dolorum officia soluta.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum delectus odit quae voluptatem id cum rerum neque quam laboriosam, similique, ratione, quasi fugit quia eos in eaque laudantium quod illum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam atque, at quam pariatur, numquam placeat beatae ducimus similique, hic deleniti ad cupiditate reprehenderit ea eveniet dolores blanditiis. Sed, asperiores temporibus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum porro incidunt earum odit natus in eius iure, rem fugit, quas tempora accusamus placeat nam molestias soluta quo adipisci sed inventore!
+            </div>
+        </div>
+        <div id="righcolum">
+            <div class="innertext">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga delectus nesciunt ipsum temporibus. Consequuntur illo labore voluptatum ab, quisquam recusandae voluptates maxime! Molestias laborum nam quisquam molestiae. Aspernatur, vero debitis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut architecto quae est quis et deleniti, at, possimus esse, cum maiores ad voluptatum. Rerum ea, nesciunt voluptatibus expedita sapiente obcaecati incidunt?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati animi facilis distinctio repellat nemo, ad natus soluta nisi, commodi quam voluptatem. Ex pariatur assumenda, rem perspiciatis veritatis temporibus deleniti voluptatibus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quod consequatur unde quis dolorem in voluptatem ipsam, aliquid voluptas praesentium asperiores! Cupiditate minima doloribus quas voluptate delectus numquam, perferendis mollitia!
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
